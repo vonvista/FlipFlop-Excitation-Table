@@ -523,6 +523,7 @@ function App (){
 
 
   return(
+    document.title = "FlipFlop",
     <div className = "main">
       <TopNav/>
       <h1>Flip flop Excitation Table Generator</h1>
