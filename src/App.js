@@ -261,6 +261,7 @@ function TruthTableRowTypeB(props){
     //FOR JK FLIP FLOP
     if(props.flipflopType == "JK"){
       for(let i = 0; i < bitsState * 2; i = i + 2){
+        index = Math.floor(i/2);
         if(truthTable[i] == 0 && truthTable[i+1] == 0){
           if(truthTableNums[index] == 0){
             inputFunctions[index] = 0;
@@ -288,6 +289,7 @@ function TruthTableRowTypeB(props){
     //FOR SR FLIP FLOP
     else if(props.flipflopType == "SR"){
       for(let i = 0; i < bitsState * 2; i = i + 2){
+        index = Math.floor(i/2);
         if(truthTable[i] == 0 && truthTable[i+1] == 0){
           if(truthTableNums[index] == 0){
             inputFunctions[index] = 0;
@@ -311,6 +313,7 @@ function TruthTableRowTypeB(props){
     //FOR D FLIP FLOP
     else if(props.flipflopType == "D"){
       for(let i = 0; i < bitsState * 2; i = i + 2){
+        index = Math.floor(i/2);
         if(truthTable[i] == 0){
           inputFunctions[index] = 0;
         }
@@ -318,24 +321,26 @@ function TruthTableRowTypeB(props){
           inputFunctions[index] = 1;
         }
       }
+      console.log(inputFunctions);
     }
     //FOR T FLIP FLOP
     else if(props.flipflopType == "T"){
       for(let i = 0; i < bitsState * 2; i = i + 2){
-        if(truthTable[i] == 0){
+        index = Math.floor(i/2);
+        if(truthTable[i] == 1){
           if(truthTableNums[index] == 0){
-            inputFunctions[index] = 0;
+            inputFunctions[index] = 1;
           }
           else if(truthTableNums[index] == 1){
-            inputFunctions[index] = 1;
+            inputFunctions[index] = 0;
           }      
         }
-        else if(truthTable[i] == 1){
+        else if(truthTable[i] == 0){
           if(truthTableNums[index] == 0){
-            inputFunctions[index] = 1;
+            inputFunctions[index] = 0;
           }
           else if(truthTableNums[index] == 1){
-            inputFunctions[index] = 0;
+            inputFunctions[index] = 1;
           }      
         }
       }
