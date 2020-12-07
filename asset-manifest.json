@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FlipFlop-Excitation-Table/static/css/main.f66e1f02.chunk.css",
-    "main.js": "/FlipFlop-Excitation-Table/static/js/main.112e41e1.chunk.js",
-    "main.js.map": "/FlipFlop-Excitation-Table/static/js/main.112e41e1.chunk.js.map",
+    "main.js": "/FlipFlop-Excitation-Table/static/js/main.5870bbe2.chunk.js",
+    "main.js.map": "/FlipFlop-Excitation-Table/static/js/main.5870bbe2.chunk.js.map",
     "runtime-main.js": "/FlipFlop-Excitation-Table/static/js/runtime-main.3f425741.js",
     "runtime-main.js.map": "/FlipFlop-Excitation-Table/static/js/runtime-main.3f425741.js.map",
     "static/js/2.1da8b4c2.chunk.js": "/FlipFlop-Excitation-Table/static/js/2.1da8b4c2.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3f425741.js",
     "static/js/2.1da8b4c2.chunk.js",
     "static/css/main.f66e1f02.chunk.css",
-    "static/js/main.112e41e1.chunk.js"
+    "static/js/main.5870bbe2.chunk.js"
   ]
 }
