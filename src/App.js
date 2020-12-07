@@ -326,7 +326,7 @@ function TruthTableRowTypeB(props){
           if(truthTableNums[index] == 0){
             inputFunctions[index] = 0;
           }
-          else{
+          else if(truthTableNums[index] == 1){
             inputFunctions[index] = 1;
           }      
         }
@@ -334,7 +334,7 @@ function TruthTableRowTypeB(props){
           if(truthTableNums[index] == 0){
             inputFunctions[index] = 1;
           }
-          else{
+          else if(truthTableNums[index] == 1){
             inputFunctions[index] = 0;
           }      
         }
@@ -527,9 +527,9 @@ function App (){
     <div className = "main">
       <TopNav/>
       <h1>Flip flop Excitation Table Generator</h1>
-      {/* <button onClick = {convertToBinary} className = "generalButton">BINARY TEST!</button>
-      <button onClick = {debugFunc} className = "generalButton">DEBUG</button> */}
-      {/* <button onClick = {makeLabels} className = "generalButton">LABEL TEST</button> */}  
+      {/* <button onClick = {convertToBinary} className = "generalButton">BINARY TEST!</button> */}
+      {/* <button onClick = {debugFunc} className = "generalButton">DEBUG</button> */}
+      {/* <button onClick = {makeLabels} className = "generalButton">LABEL TEST</button>  */}
 
       <div className = "row">
 
