@@ -5,8 +5,8 @@ import Tweet from "./tweet";
 function TopNav() {
   return(
     <div className="topnav">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">News</a>
+      <a href="#home" class="active">Von Vista</a>
+      <a href="#news">Home</a>
       <a href="#contact">Contact</a>
       <a href="#about">About</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -527,12 +527,9 @@ function App (){
     <div className = "main">
       <TopNav/>
       <h1>Flip flop Excitation Table Generator</h1>
-      <button onClick = {convertToBinary} className = "generalButton">BINARY TEST!</button>
-      <button onClick = {debugFunc} className = "generalButton">DEBUG</button>
-      {/* <button onClick = {makeLabels} className = "generalButton">LABEL TEST</button> */}
-      <button onClick = {displayTable} className = "generalButton">DISPLAY TABLE</button>
-      <button onClick = {resetTable} className = "generalButton">RESET TABLE</button>
-      
+      {/* <button onClick = {convertToBinary} className = "generalButton">BINARY TEST!</button>
+      <button onClick = {debugFunc} className = "generalButton">DEBUG</button> */}
+      {/* <button onClick = {makeLabels} className = "generalButton">LABEL TEST</button> */}  
 
       <div className = "row">
 
@@ -562,6 +559,9 @@ function App (){
         </div>
         
       </div>
+
+      <button onClick = {displayTable} className = "generalButton">DISPLAY TABLE</button>
+      <button onClick = {resetTable} className = "generalButton">RESET TABLE</button>
 
       <h1>Type A Table (Modify Present State)</h1>
       
