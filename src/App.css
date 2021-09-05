@@ -1,39 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
 .app{
-  background: rgb(199, 220, 228);
   justify-content: column;
+}
+
+.html, body{
+  background: #222629;
+  font-family: 'Urbanist', sans-serif;
 }
 
 .main{
-  height: 1000px;
-  background: rgb(199, 220, 228);
   justify-content: column;
-}
-
-.tweet{
-  height: 200px;
-  width: 300px;
-  background: white;
-  border-radius: 2vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: column;
-  padding: 2vh;
-  margin: 2vh;
+  color:#edf5e1;
 }
 
 .option {
-  height: 150px;
-  width: 200px;
-  place-content: center;
   border-radius: 2vh;
-  background: white;
-  display: flex;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 5px;
+  background-color: #2c2e30;
+  align-items: center;
+  height: 70px;
   padding: 10px;
-  margin: 10px;
+}
+
+.option h2 {
+  margin-right: 15px;
+}
+
+.option button {
+  margin: 0px 5px 0px;
+}
+
+.bump-left {
+  margin-left: 10px;
+}
+
+.optionsParent {
+  display: inline-flex;
+  background-color: #16181a;
+  padding: 10px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.titleParent {
+  background-color: #0d0e0f;
+  padding: 20px;
+}
+
+.generatorParent {
+  background-color: #1b1d20;
+  padding: 0px 10px;
+}
+
+.bodyParent {
+  padding: 20px;
 }
 
 .red {
@@ -58,6 +84,7 @@
   background-color: rgb(70, 71, 69);
   border: 0px;
   font-size: 15px;
+  font-family: 'Urbanist', sans-serif;
   color: white;
   height: 40px;
   width: 40px;
@@ -71,18 +98,18 @@
   color: white;
   height: 40px;
   width: 40px;
-
+  font-family: 'Urbanist', sans-serif;
 }
 
 .generalButton {
-  background-color: rgb(11, 105, 32);
+  background-color: rgb(50, 92, 33);
   border: 0px;
   font-size: 15px;
   color: white;
   height: 50px;
   width: 120px;
   margin: 10px;
-
+  font-family: 'Urbanist', sans-serif;
 }
 
 .truthTablenums {
@@ -92,6 +119,7 @@
   color: white;
   height: 40px;
   width: 40px;
+  font-family: 'Urbanist', sans-serif;
 
 }
 
@@ -102,6 +130,7 @@
   color: white;
   height: 40px;
   width: 40px;
+  font-family: 'Urbanist', sans-serif;
 }
 
 .truthTableInputFunctions {
@@ -111,6 +140,7 @@
   color: white;
   height: 40px;
   width: 80px;
+  font-family: 'Urbanist', sans-serif;
 }
 
 
